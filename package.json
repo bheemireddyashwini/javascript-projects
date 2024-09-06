@@ -1,18 +1,14 @@
 {
-  "name": "bulls-and-cows",
-  "version": "1.0.0",
-  "description": "Bulls and Cows",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "engines": {
-    "node": ">=12.0.0"
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "rewire": "^6.0.0"
   },
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/PB-conditionals-fizzbuzz-simple",
+    "id": 201931778
   }
 }
